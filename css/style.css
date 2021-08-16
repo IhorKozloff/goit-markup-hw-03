@@ -1,4 +1,6 @@
 /* Specification */
+
+
 body {
   margin: 0;
   padding: 0; 
@@ -23,32 +25,25 @@ ul {
     display: flex;
 }
 
-
-
 .container {
     box-sizing: border-box;
     width: 1200px;
     margin: 0  auto;
     padding-right: 15px;
     padding-left: 15px;
-    /* background-color: rgb(243, 237, 152); */
-    border: black 1px solid;
 }
 
 .section {
     padding: 94px 0;
-    background: burlywood;
-    border: 2px solid red;
 }   
 
 /* [1] Content Главная */
 
 /* [1.1] HEADER     */
 header {
-    background: rgb(228, 130, 130);
-    border-bottom: 1px solid #ECECEC;
-    
+    border-bottom: 1px solid #ECECEC;    
 }
+
 .header-container {
     display: flex;
     padding-bottom: 25px;
