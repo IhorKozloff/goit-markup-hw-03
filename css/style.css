@@ -234,18 +234,23 @@ footer {
     color: #fff;
 }
 
-
+address {
+    margin-top: 20px;
+}
 .contacts-list {
     display: block;
     font-size: 14px;
     line-height: 1.7;
-    margin-top: 20px;
     font-style: normal;
-    
 }
 .contacts-list a {
     color: #ACACB0;
 }
+.contacts-list li:not(:first-child) {
+
+    margin-top: 9px;
+}
+
 
 
 
