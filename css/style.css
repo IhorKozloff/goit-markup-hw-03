@@ -26,7 +26,6 @@ ul {
 }
 
 .container {
-    box-sizing: border-box;
     width: 1200px;
     margin: 0  auto;
     padding-right: 15px;
@@ -105,6 +104,7 @@ header {
 
 .hero {
     background: #2F303A;
+    padding: 200px 0;
    
 }
 h1 {
@@ -128,7 +128,8 @@ h1 {
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    margin: 30px auto 106px auto;
+    margin: 0 auto;
+    margin-top: 30px;
     border: 0px;
 }
 .btn:hover {
@@ -170,13 +171,16 @@ h3 {
 }
 
 /* [1.5]  Section Busines  */
-
+.section_modyfi {
+    padding-top: 0px;
+}
 
 h2 { 
     font-weight: bold;
     font-size: 36px;
     line-height: 1.2;
     text-align: center;
+    margin-bottom: 50px;
 
 }
 .busines {
@@ -202,11 +206,17 @@ h2 {
 .team__item:not(:first-child) {
     margin-right: 30px;
 }
+
 .photo {
     width: 270px;
     height: 260px;
-    margin-bottom: 30px;
+    
 }
+
+.team__item__text {
+    padding: 30px 0;
+}
+
 .name {
     font-weight: 500;
     font-size: 16px;
@@ -220,7 +230,7 @@ h2 {
     line-height: 1.2;
     text-align: center;
     color: #757575;
-    margin-bottom: 30px;
+    
 } 
 
 /*       [1.7]  FOOTER          */
@@ -261,8 +271,8 @@ address {
 /*    [2.1] TABS */
 
 .tabs {
-    margin-left: 280px;
-    padding-bottom: 10px;
+    justify-content: center;
+    
 }
 .tab {
     font-family: 'Roboto', sans-serif;
@@ -297,7 +307,7 @@ address {
 
 .galarry {
     flex-flow: row wrap;
-    margin-top: 34px;
+    margin-top: 50px;
 }
 
 .img-busines-portfolio {
@@ -308,6 +318,7 @@ address {
 .photo-galarry {
     margin-right: 30px;
     margin-bottom: 30px;
+    display: block;
 }
 .photo-galarry:nth-child(3n + 3) {
     
